@@ -16,7 +16,8 @@ def races(name: str, location: str, country: str, separator: str = ", ", end: st
 
 def main() -> None:
     """Demonstrates the usage of the races function."""
-    # Adding Formula 1 tracks with name, location, and country
+    # Εισαγωγή Πίστες Formula1 με όνομα, τοποθεσία και χώρα.
+    print("\n\nΠίστες Formula1 με όνομα, τοποθεσία και χώρα\n\t--------------------")
     races("Monza", "Lombardy", "Ιταλία")
     races("Silverstone", "Northamptonshire", "Ηνωμένο Βασίλειο")
     races("Suzuka", "Mie Prefecture", "Ιαπωνία")
@@ -35,7 +36,7 @@ def main() -> None:
     races("Circuit of the Americas", "Austin", "Ηνωμένες Πολιτείες της Αμερικής", separator=" | ", end=".")
     races("Kyalami", "Midrand", "Νότια Αφρική", separator=" | ", end=".")
     races("Circuit Paul Ricard", "Le Castellet", "Γαλλία", separator=" | ", end=".")
-    races("Istanbul Park", "Tuzla", "Τουρκία", separator=" | ", end=".\n")
+    races("Istanbul Park", "Tuzla", "Τουρκία", separator=" | ", end=".\n\t--------------------\n")
 
 
 if __name__ == "__main__":
