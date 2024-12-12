@@ -17,10 +17,25 @@ def races(name: str, location: str, country: str, separator: str = ", ", end: st
 def main() -> None:
     """Demonstrates the usage of the races function."""
     # Adding Formula 1 tracks with name, location, and country
-    races("Monza", "Lombardy", "Italy")
-    races("Silverstone", "Northamptonshire", "United Kingdom")
-    races("Suzuka", "Mie Prefecture", "Japan")
-    races("Interlagos", "Sao Paulo", "Brazil", separator=" | ", end=".\n")
+    races("Monza", "Lombardy", "Ιταλία")
+    races("Silverstone", "Northamptonshire", "Ηνωμένο Βασίλειο")
+    races("Suzuka", "Mie Prefecture", "Ιαπωνία")
+    races("Interlagos", "Sao Paulo", "Βραζιλία", separator=" | ", end=".")
+    races("Marina Bay Street Circuit", "Singapore", "Σιγκαπούρη", separator=" | ", end=".")
+    races("Circuit de Barcelona-Catalunya", "Montmelo", "Ισπανία", separator=" | ", end=".")
+    races("Shanghai International Circuit", "Shanghai", "Κίνα",  separator=" | ", end=".")
+    races("Zandvoort", "Zandvoort", "Ολλανδία", separator=" | ", end=".")
+    races("Hungaroring", "Mogyoród", "Ουγγαρία", separator=" | ", end=".")    
+    races("Circuit de Monaco", "Monte Carlo", "Μονακό", separator=" | ", end=".")
+    races("Spa-Francorchamps", "Stavelot", "Βέλγιο", separator=" | ", end=".")  
+    races("Bahrain International Circuit", "Sakhir", "Μπαχρέιν", separator=" | ", end=".")
+    races("Albert Park Circuit", "Melbourne", "Αυστραλία", separator=" | ", end=".")
+    races("Hockenheimring", "Hockenheim", "Γερμανία", separator=" | ", end=".")
+    races("Yas Marina Circuit", "Abu Dhabi", "Ηνωμένα Αραβικά Εμιράτα", separator=" | ", end=".")
+    races("Circuit of the Americas", "Austin", "Ηνωμένες Πολιτείες της Αμερικής", separator=" | ", end=".")
+    races("Kyalami", "Midrand", "Νότια Αφρική", separator=" | ", end=".")
+    races("Circuit Paul Ricard", "Le Castellet", "Γαλλία", separator=" | ", end=".")
+    races("Istanbul Park", "Tuzla", "Τουρκία", separator=" | ", end=".\n")
 
 
 if __name__ == "__main__":
